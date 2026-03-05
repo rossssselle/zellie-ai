@@ -18,7 +18,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://rossssselle.github.io",   # <-- replace with your domain
+        "https://rossssselle.github.io", 
+        "https://rosselle.rocks"  # <-- replace with your domain
     ],
     allow_methods=["POST"],
     allow_headers=["*"],
