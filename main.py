@@ -111,7 +111,7 @@ async def chat(req: ChatRequest):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-5-mini",
+            model="gpt-4o-mini",
             messages=openai_messages,
             max_tokens=400,
             temperature=0.7,
