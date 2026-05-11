@@ -6,7 +6,6 @@ import openai
 import os
 
 from dotenv import load_dotenv
-# from openai import OpenAI
 from pypdf import PdfReader
 
 app = FastAPI()
